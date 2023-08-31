@@ -1,9 +1,9 @@
 <%
 
-	'ASP ¾ð¾î´Â <% ·Î ½ÃÀÛÇÏ¿© % >·Î ³¡³ª¾ß ÇÕ´Ï´Ù.
+	'ASP ì–¸ì–´ëŠ” <% ë¡œ ì‹œìž‘í•˜ì—¬ % >ë¡œ ëë‚˜ì•¼ í•©ë‹ˆë‹¤.
 
-	Title = "¿©ÁÖ´ëÇÐ" 'TitleÀÌ¶õ º¯¼ö¿¡ ¿©ÁÖ´ëÇÐÀÌ¶õ ¹®ÀÚ °ªÀ» ÇÒ´çÇÕ´Ï´Ù.
-	Welcome = "¿©ÁÖ´ëÇÐ¿¡ ¿À½Å °É È¯¿µÇÕ´Ï´Ù." 'WelcomeÀÌ¶õ º¯¼ö¿¡ ¹®ÀÚ °ªÀ» ÇÒ´çÇÕ´Ï´Ù. ¹®ÀÚ´Â "¿Í "·Î °¨½Î¾ß ÇÕ´Ï´Ù.
+	Title = "ì—¬ì£¼ëŒ€í•™" 'Titleì´ëž€ ë³€ìˆ˜ì— ì—¬ì£¼ëŒ€í•™ì´ëž€ ë¬¸ìž ê°’ì„ í• ë‹¹í•©ë‹ˆë‹¤.
+	Welcome = "ì—¬ì£¼ëŒ€í•™ì— ì˜¤ì‹  ê±¸ í™˜ì˜í•©ë‹ˆë‹¤." 'Welcomeì´ëž€ ë³€ìˆ˜ì— ë¬¸ìž ê°’ì„ í• ë‹¹í•©ë‹ˆë‹¤. ë¬¸ìžëŠ” "ì™€ "ë¡œ ê°ì‹¸ì•¼ í•©ë‹ˆë‹¤.
 
 
 %>
@@ -19,14 +19,14 @@
 				<table width="100%" border="0">
 					<tr>
 						<td align="left" colspan="2"><img src="./img/top_logo.gif" border="0" width="120" height="50"></td>
-						<td align="right" colspan="2"><a href="ftp://www.yeoju.ac.kr" target="_blank">FTPÁ¢¼Ó</a></td>
+						<td align="right" colspan="2"><a href="ftp://www.yeoju.ac.kr" target="_blank">FTPì ‘ì†</a></td>
 					</tr>
 					<tr style="background-color:#BDBDBD;height:40px;">
-						<td width="25%" align="center"><b>È¨</b></td>
-						<td width="25%" align="center"><a href="./cafe/cafe.html">Ä«Æä¼­ºñ½º</a></td>
-						<td width="25%" align="center"><a href="./blog/blog.html">ºí·Î±×¼­ºñ½º</a></td>
-						<td width="25%" align="center"><a href="./board/board.asp">°Ô½ÃÆÇ</a></td>
-						<!-- °Ô½ÃÆÇÀ» ±âÁ¸ÀÇ .html¿¡¼­ .asp·Î º¯°æÇÕ´Ï´Ù. -->
+						<td width="25%" align="center"><b>í™ˆ</b></td>
+						<td width="25%" align="center"><a href="./cafe/cafe.html">ì¹´íŽ˜ì„œë¹„ìŠ¤</a></td>
+						<td width="25%" align="center"><a href="./blog/blog.html">ë¸”ë¡œê·¸ì„œë¹„ìŠ¤</a></td>
+						<td width="25%" align="center"><a href="./board/board.asp">ê²Œì‹œíŒ</a></td>
+						<!-- ê²Œì‹œíŒì„ ê¸°ì¡´ì˜ .htmlì—ì„œ .aspë¡œ ë³€ê²½í•©ë‹ˆë‹¤. -->
 					</tr>
 				</table>
 			</td>
@@ -35,7 +35,7 @@
 			<td align="center" height="500">
 				<span style="font-size:12pt;">
 				<%
-					Response.write Welcome 'WelcomeÀÌ¶õ º¯¼ö¸¦ Ãâ·ÂÇÕ´Ï´Ù. Ãâ·Â¿¡ »ç¿ëµÇ´Â ¸í·É¾î´Â Response.write ÀÔ´Ï´Ù.
+					Response.write Welcome 'Welcomeì´ëž€ ë³€ìˆ˜ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤. ì¶œë ¥ì— ì‚¬ìš©ë˜ëŠ” ëª…ë ¹ì–´ëŠ” Response.write ìž…ë‹ˆë‹¤.
 				%>
 				</span>
 			</td>
